@@ -2,9 +2,11 @@ import styled from "styled-components";
 import { Color } from "../../utils/colors.app";
 
 export const Container = styled.div`
-  min-width: 320px;
+  width: 100%;
+  max-width: 320px;
   height: 100%;
 `
+//exemplo de boa pratica no container referente ao width e o max.
 
 export const Wrapper = styled.div`
   width: 100%;

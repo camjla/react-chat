@@ -1,10 +1,10 @@
-import { Container, Wrapper } from "./contacts.styles"
+import { Container, Wrapper, Title } from "./contacts.styles"
 
 export const Contacts = () => {
   return(
     <Container>
       <Wrapper>
-        <h1>Oi</h1>
+        <Title>Mensagens</Title>
       </Wrapper>
     </Container>
   )

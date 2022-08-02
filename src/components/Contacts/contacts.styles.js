@@ -14,3 +14,6 @@ export const Wrapper = styled.div`
 
   background-color: ${Color.BLUE_SECONDARY};
 `
+export const Title = styled.h1`
+ font-family: 'Quicksand', sans-serif;
+`

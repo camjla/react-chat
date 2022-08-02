@@ -4,7 +4,7 @@ import { Color } from "../../utils/colors.app";
 export const Container = styled.section`
   width: 100%;
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: #ffff;
   `

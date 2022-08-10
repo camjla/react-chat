@@ -27,12 +27,20 @@ export const Navbar = () => {
               size={42}
             />
           </Link>
-          <Link to={'/contacts'}>
-            <AddressBook onClick={() => setCurrentPage('contacts')} size={42} />
+          <Link to={'/contactsadress'}>
+            <AddressBook onClick={() => setCurrentPage('contactsadress')} size={42} />
           </Link>
-          <Star size={42} />
-          <Trash size={42} />
-          <GearSix size={42} />
+          <Link to={'/favorites'}>
+          <Star onClick={() => setCurrentPage('favorites')}  size={42} />
+          </Link>
+
+          <Link to={'/trash'}>
+          <Trash onClick={() => setCurrentPage('trash')}  size={42} />
+          </Link>
+
+          <Link to={'/settings'}>
+          <GearSix onClick={() => setCurrentPage('settings')}  size={42} />
+          </Link>
         </ContainerDiv>
         <WrapperDiv>
           <ArrowRight size={32} weight='fill' />

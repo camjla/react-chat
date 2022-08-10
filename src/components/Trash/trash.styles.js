@@ -16,6 +16,6 @@ export const Wrapper = styled.div`
 `
 export const Title = styled.h1`
  font-family: 'Quicksand', sans-serif;
- color: #fff;
- text-align: center;
+text-align: center;
+color: #FFF;
 `

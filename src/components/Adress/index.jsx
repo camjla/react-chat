@@ -1,5 +1,5 @@
 import {UsersFour, UserPlus, Buildings} from 'phosphor-react';
-import { Container, Wrapper, Title, Content,Group, Texts,ListContacts } from "./adress.styles"
+import { Container, Wrapper, Title, Content,Group, Texts,ListContacts,NameContact,Contact } from "./adress.styles"
 
 import jm from '../../assets/icons-contacts/jm.jpg'
 import fernando from '../../assets/icons-contacts/fernando.jpg'
@@ -37,24 +37,66 @@ export const ListContact = () => {
         </Group>
         </Content>
         <ListContacts>
+
+
+          <Contact>
         <img width='70px' height='70px' src={eu} alt= 'eu' />
-        
-        <img width='70px' height='70px' src={fernando} alt= 'Fernando' />
-        
-        <img width='70px' height='70px' src={gustavo} alt= 'Gustavo' />
-        
-        <img width='70px' height='70px' src={helena} alt= 'Helena' />
-        
+        <NameContact>Camila (Você)</NameContact>
+         </Contact>
+
+        <Contact>
         <img width='70px' height='70px' src={jm} alt= 'jimin' />
-        
+        <NameContact>Baby</NameContact>
+        </Contact>
+
+
+        <Contact>
+        <img width='70px' height='70px' src={fernando} alt= 'Fernando' />
+        <NameContact>Fernando</NameContact>
+        </Contact>
+
+
+        <Contact>
+        <img width='70px' height='70px' src={gustavo} alt= 'Gustavo' />
+        <NameContact>Gustavo</NameContact>
+        </Contact>
+
+
+        <Contact>
+        <img width='70px' height='70px' src={helena} alt= 'Helena' />
+        <NameContact>Helena</NameContact>
+        </Contact>
+
+
+        <Contact>
         <img width='70px' height='70px' src={lucas} alt= 'Lucas' />
-        <img width='70px' height='70px' src={natasha} alt= 'Natasha' />
-        
+        <NameContact>Lucas</NameContact>
+        </Contact>
+
+
+        <Contact>
+        <img width='70px' height='70px'  src={natasha} alt= 'Natasha' />
+        <NameContact>Natasha</NameContact>
+        </Contact>
+
+
+        <Contact>
         <img width='70px' height='70px' src={pab} alt= 'pab' />
-        
+        <NameContact>pab</NameContact>
+        </Contact>
+
+
+        <Contact> 
         <img width='70px' height='70px' src={palfi} alt= 'palfi' />
-        
+        <NameContact>Palfi</NameContact>
+        </Contact>
+
+      
+        <Contact>
         <img width='70px' height='70px' src={steph} alt= 'Steph' />
+        <NameContact>Steph</NameContact>
+        </Contact>
+
         </ListContacts>
       </Wrapper>
     </Container>

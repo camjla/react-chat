@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   overflow: auto;
+  gap: 1rem;
 
   ::-webkit-scrollbar {
     width: 1px;
@@ -49,5 +50,22 @@ export const Texts = styled.p`
 export const ListContacts = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1rem;
+`
+
+export const NameContact = styled.span`
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  color: ${Color.MESSAGES_COLOR};
+  text-align: center;
+`
+
+export const Contact = styled.div`
+  display: flex;
+  flex-direction: 'row';
+
+  align-items: center;
+
+  gap: 2rem;
 `

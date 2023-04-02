@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Color } from "../../utils/colors.app";
+import styled from 'styled-components'
+import { Color } from '../../utils/colors.app'
 
 export const Container = styled.section`
   width: 100%;
@@ -11,5 +11,4 @@ export const Wrapper = styled.div`
   height: 100%;
 
   display: flex;
-  
 `

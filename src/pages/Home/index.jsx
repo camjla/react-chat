@@ -1,5 +1,4 @@
 import { Container, Wrapper, Content, Title, ContentContainer } from "./home.styles"
-import { BalloonSvg } from "../../utils/svg"
 import { ChatsTeardrop } from "phosphor-react"
 import { Color } from "../../utils/colors.app"
 import { Contacts } from "../../components/Contacts"

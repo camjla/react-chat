@@ -4,7 +4,7 @@ import {
   ChatTeardropText,
   GearSix,
   Star,
-  Trash,
+
 } from 'phosphor-react';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -34,9 +34,7 @@ export const Navbar = () => {
           <Star onClick={() => setCurrentPage('favorites')}  size={42} />
           </Link>
 
-          <Link to={'/trash'}>
-          <Trash onClick={() => setCurrentPage('trash')}  size={42} />
-          </Link>
+         
 
           <Link to={'/settings'}>
           <GearSix onClick={() => setCurrentPage('settings')}  size={42} />

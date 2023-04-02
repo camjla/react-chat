@@ -6,6 +6,7 @@ export const Fav = () => {
   return(
     <Container>
       <Wrapper>
+        
         <FavMessage/>
       </Wrapper>
     </Container>

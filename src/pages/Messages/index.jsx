@@ -6,7 +6,6 @@ export const Messages = () => {
     <Container>
       <Wrapper>
         <Contacts />
-        
       </Wrapper>
     </Container>
   )
